@@ -78,6 +78,6 @@ def error405(error):
 
 
 
-run(host='localhost', port=8800, debug = True, reloader=True)
+#run(host='localhost', port=8800, debug = True, reloader=True)
 
-#bottle.run(host='0.0.0.0', port=argv[1])
+bottle.run(host='0.0.0.0', port=argv[1])
